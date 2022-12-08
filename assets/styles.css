@@ -1,4 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+body {
+font-family: 'Times New Roman', Times, serif;
+background-color: #DDE9E5;
+
+}
+
 h1 {
-    color: #b6e9d1;
-    
+    display: inline;
+    color: #DDE9E5
+    ;
     }
+
+h2 {
+
+
+}
+
+hr {
+    background-color: #D4C082;
+color: #E05956;
+height: 5px;
+
+}
+
+.Nav-Bar {
+    top: 0;
+    border: 2px solid black;
+    text-align: left;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #E05956;
+    margin-bottom: 10px;
+
+}
+
+.navbar-items {
+    color: #DDE9E5;
+    font-size: large;
+    font-weight: bold;
+    padding-right: 5px;
+    padding-left: 5px;
+    float: right;
+    display: inline;
+}
+
+.navbar-items:hover {
+    color: #D4C082;
+}
+
+.main {
+margin-top: 50px;
+
+}
+
+img {
+height: 300px;
+width: 300px;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #D4C082;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #E05956;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #8ABDAC;
+    padding: 20px;
+  }
